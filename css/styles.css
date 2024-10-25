@@ -622,7 +622,12 @@ gap: 24px;
      .checkbox {
       margin-bottom: 24px;
      }
+     .checkbox-input:checked+.checkbox-label>.span-label{
+      background-color: #404bbf;
+      border: none;
+      fill: #F4F4FD;
 
+     }
      .checkbox-label {
       font-size: 12px;
       line-height: 1.17;
